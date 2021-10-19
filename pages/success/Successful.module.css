@@ -1,0 +1,58 @@
+.wrapper{
+    background: rgb(191, 202, 202);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper h3{
+    font-size: 40px;
+}
+
+.wrapper .checkIcon{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+
+    background-image: url('./checkicon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.wrapper p{
+    font-size: 18px;
+}
+.wrapper button{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(19, 19, 19);
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+.wrapper button:active{
+    background: rgb(25, 25, 26);
+}
+
+@media (max-width: 620px){
+    .wrapper{
+        text-align: center;
+        background-image: url('./gif2.gif');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: #FFFFFF;
+
+    }
+    .wrapper h3{
+        font-size: 26px;
+    }
+    .wrapper p{
+        font-size: 16px;
+    }
+    .wrapper button{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+}
